@@ -5,7 +5,6 @@ import random
 st.title('📖 Unscramble That Bible Book!')
 st.write('Click to start!')
 
-# Bible books with duplicates like "1 Samuel" and "2 Samuel" merged
 bible_books = [
     "Genesis", "Exodus", "Leviticus", "Numbers", "Deuteronomy", "Joshua", "Judges", "Samuel", "Kings", "Chronicles", "Nehemiah", "Esther",
     "Psalms", "Proverbs", "Ecclesiastes", "Song of Solomon", "Isaiah", "Jeremiah", "Lamentations", "Ezekiel", "Daniel", "Hosea", "Obadiah", 
