@@ -7,23 +7,15 @@ st.write('Click to start!')
 
 # Bible books with duplicates like "1 Samuel" and "2 Samuel" merged
 bible_books = [
-    "Genesis", "Exodus", "Leviticus", "Numbers", "Deuteronomy",
-    "Joshua", "Judges", "Samuel", "Kings",
-    "Chronicles", "Nehemiah", "Esther",
-    "Psalms", "Proverbs", "Ecclesiastes", "Song of Solomon", "Isaiah",
-    "Jeremiah", "Lamentations", "Ezekiel", "Daniel", "Hosea",
-    "Obadiah", "Jonah", "Micah",
-    "Nahum", "Habakkuk", "Zephaniah", "Haggai", "Zechariah",
-    "Malachi", "Matthew"
-    "Romans", "Corinthians", "Galatians", "Ephesians",
-    "Philippians", "Colossians", "Thessalonians", "Timothy", "Titus",
-    "Philemon", "Hebrews", "James", "Peter",
-    "Revelation"
+    "Genesis", "Exodus", "Leviticus", "Numbers", "Deuteronomy", "Joshua", "Judges", "Samuel", "Kings", "Chronicles", "Nehemiah", "Esther",
+    "Psalms", "Proverbs", "Ecclesiastes", "Song of Solomon", "Isaiah", "Jeremiah", "Lamentations", "Ezekiel", "Daniel", "Hosea", "Obadiah", 
+    "Jonah", "Micah", "Nahum", "Habakkuk", "Zephaniah", "Haggai", "Zechariah", "Malachi", "Matthew", "Romans", "Corinthians", "Galatians", 
+    "Ephesians", "Philippians", "Colossians", "Thessalonians", "Timothy", "Titus", "Philemon", "Hebrews", "James", "Peter", "Revelation"
 ]
 
 def scramble(word):
     word = word.lower()
-    letters = list(word.replace(" ", ""))  # remove spaces for scrambling
+    letters = list(word.replace(" ", ""))
     random.shuffle(letters)
     return ''.join(letters)
 
@@ -41,14 +33,14 @@ if 'scrambled' not in st.session_state:
     st.session_state.scrambled = None
 
 if st.button("🔀 Generate Scrambled Book"):
-    chosen = random.choice(bible_books)
-    st.session_state.current_book = chosen
-    st.session_state.scrambled = scramble(chosen)
+    chosen = random.randint(0, len(bible_books)-1)
+    st.session_state.current_book = bible_books[chosen]
+    st.session_state.scrambled = scramble(bible_books[chosen])
 
 if st.session_state.scrambled:
     st.subheader("🧩 Unscramble this:")
     st.markdown(f"<h2 style='text-align: center; color: blue;'>{st.session_state.scrambled}</h2>", unsafe_allow_html=True)
     
-    start_countdown()  # or any duration you want
+    start_countdown()
     
     st.info(f"✅ The correct answer was: **{st.session_state.current_book}**")
