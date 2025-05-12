@@ -21,7 +21,7 @@ def scramble(word):
 
 def start_countdown():
     countdown = st.empty()
-    for i in range(10, -1, -1):
+    for i in range(5, -1, -1):
         countdown.markdown(f"<h1 style='text-align: center; color: red;'>{i}</h1>", unsafe_allow_html=True)
         time.sleep(1)
     st.success("⏱️ Time's up!")
