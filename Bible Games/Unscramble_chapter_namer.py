@@ -27,11 +27,12 @@ def reset_list():
 st.sidebar.header('Personalize Settings') # Control bar
 timer = st.sidebar.number_input('How many seconds per round?', 5, 30, step=5) # Guessing time for each round
 choice = st.sidebar.selectbox('Do you want chapters with four letter?: 0 for yes, 1 for no', options = ('Yes', 'No')) # Game difficulty
-st.sidebar.button("Click here to reset the game.", on_click=reset_list())
+st.sidebar.button("Click here to reset the game.", on_click=reset_list)
 
 
-if not choice:
-    bible_books = bible_books[0:46]
+if choice == "Yes":
+    bible_books = [book for book in bible_books if len(book.replace(" ", "")) == 4]
+
 
 def scramble(word):
     """
@@ -64,16 +65,25 @@ if 'current_book' not in st.session_state:
 if 'scrambled' not in st.session_state:
     st.session_state.scrambled = None
 
+if 'used_books' not in st.session_state:
+    st.session_state.used_books = []
+
+remaining_books = [book for book in bible_books if book not in st.session_state.used_books]
+
 if st.button("🔀 Generate Scrambled Book"):
-    chosen = random.randint(0, len(bible_books)-1)
-    st.session_state.current_book = bible_books[chosen]
-    st.session_state.scrambled = scramble(bible_books[chosen])
-    bible_books.pop(chosen)
+    if not remaining_books:
+        st.warning("🎉 You've unscrambled all books! Please reset to play again.")
+    else:
+        chosen = random.choice(remaining_books)
+        st.session_state.current_book = chosen
+        st.session_state.scrambled = scramble(chosen)
+        st.session_state.used_books.append(chosen)
+
 
 if st.session_state.scrambled:
     st.subheader("🧩 Unscramble this:")
     st.markdown(
-    f"<div style='text-align: center; font-size: 180px; color: blue;'>{st.session_state.scrambled}</div>",
+    f"<div style='text-align: center; font-size: 120px; color: blue;'>{st.session_state.scrambled}</div>",
     unsafe_allow_html=True
 )
 
