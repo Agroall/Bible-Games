@@ -32,6 +32,8 @@ st.sidebar.button("Click here to reset the game.", on_click=reset_list)
 
 if choice == "Yes":
     bible_books = [book for book in bible_books if len(book.replace(" ", "")) >= 4]
+else:
+    bible_books = [book for book in bible_books if len(book.replace(" ", "")) > 4]
 
 
 def scramble(word):
@@ -43,7 +45,7 @@ def scramble(word):
     word = word.lower() # Sets all the letter in lowercase to improve difficulty.
     letters = list(word.replace(" ", "")) # Removes the blank spaces for multi word books.
     random.shuffle(letters) # Scramble the word.
-    while random.shuffle(letters) == letters:
+    if random.shuffle(letters) == letters:
         random.shuffle(letters)
     return ''.join(letters) # Rearranges the scrambled word
 
