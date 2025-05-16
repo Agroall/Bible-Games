@@ -31,7 +31,7 @@ st.sidebar.button("Click here to reset the game.", on_click=reset_list)
 
 
 if choice == "Yes":
-    bible_books = [book for book in bible_books if len(book.replace(" ", "")) == 4]
+    bible_books = [book for book in bible_books if len(book.replace(" ", "")) >= 4]
 
 
 def scramble(word):
