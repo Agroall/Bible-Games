@@ -28,7 +28,7 @@ def scramble(word):
 
     word = word.lower() # Sets all the letter in lowercase to improve difficulty.
     letters = list(word.replace(" ", "")) # Removes the blank spaces for multi word books.
-    shuffled = random.shuffle(letters) # Scramble the word.
+    shuffled = letters.shuffle() # Scramble the word.
     while shuffled == letters:
         shuffled = random.shuffle(letters)
     return ''.join(shuffled) # Rearranges the scrambled word.
