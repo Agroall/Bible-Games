@@ -26,7 +26,7 @@ def reset_list():
 
 st.sidebar.header('Personalize Settings') # Control bar
 timer = st.sidebar.number_input('How many seconds per round?', 5, 30, step=5) # Guessing time for each round
-choice = st.sidebar.selectbox('Do you want chapters with four letter?: 0 for yes, 1 for no', options = ('Yes', 'No')) # Game difficulty
+choice = st.sidebar.selectbox('Do you want chapters with four letter?', options = ('Yes', 'No')) # Game difficulty
 st.sidebar.button("Click here to reset the game.", on_click=reset_list)
 
 
