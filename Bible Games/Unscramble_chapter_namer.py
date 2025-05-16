@@ -28,10 +28,10 @@ def scramble(word):
 
     word = word.lower() # Sets all the letter in lowercase to improve difficulty.
     letters = list(word.replace(" ", "")) # Removes the blank spaces for multi word books.
-    shuffled = letters.shuffle() # Scramble the word.
-    while shuffled == letters:
-        shuffled = random.shuffle(letters)
-    return ''.join(shuffled) # Rearranges the scrambled word.
+    random.shuffle(letters) # Scramble the word.
+    while random.shuffle(letters) == letters:
+        random.shuffle(letters)
+    return ''.join(letters) # Rearranges the scrambled word
 
 def start_countdown(timer=timer):
     """
