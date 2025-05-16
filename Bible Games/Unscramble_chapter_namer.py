@@ -92,5 +92,5 @@ if st.session_state.scrambled:
     
     st.info(f"✅ The correct answer was: **{st.session_state.current_book}**")
 
-
+st.markdown("---")
 st.caption("Developed with ❤️ by Abatan Ayodeji (Agroall) • Built using Streamlit")
