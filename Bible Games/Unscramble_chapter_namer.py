@@ -56,7 +56,7 @@ if st.button("🔀 Generate Scrambled Book"):
 
 if st.session_state.scrambled:
     st.subheader("🧩 Unscramble this:")
-    st.markdown(f"<h2 style='text-align: center; color: blue;'>{st.session_state.scrambled}</h1>", unsafe_allow_html=True)
+    st.markdown(f"<h2 style='text-align: center; color: blue;'>{st.session_state.scrambled}</h5>", unsafe_allow_html=True)
     
     start_countdown()
     
