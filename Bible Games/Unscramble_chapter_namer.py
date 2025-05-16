@@ -2,8 +2,8 @@ import streamlit as st
 import time
 import random
 
-st.title('📖 Unscramble That Bible Book!')
-st.write('Click to start!')
+st.title('📖 Unscramble That Bible Book!') # Page Title
+st.write('Click to start!') # Page Description
 
 bible_books = [
     "Genesis", "Exodus", "Leviticus", "Numbers", "Deuteronomy", "Joshua", "Judges", "Samuel", "Kings", "Chronicles", "Nehemiah", "Esther",
@@ -13,27 +13,37 @@ bible_books = [
     "Amos", "Ezra", "Joel", "John", "Jude", "Luke", "Mark", "Ruth"
 ]
 
-st.sidebar.header('Personalize Settings')
-timer = st.sidebar.number_input('How many seconds per round?', 5, 30, step=5)
-choice = st.sidebar.selectbox('Do you want chapeter with four letter?: 0 for yes, 1 for no', options = ('Yes', 'No'))
+st.sidebar.header('Personalize Settings') # Control bar
+timer = st.sidebar.number_input('How many seconds per round?', 5, 30, step=5) # Guessing time for each round
+choice = st.sidebar.selectbox('Do you want chapters with four letter?: 0 for yes, 1 for no', options = ('Yes', 'No')) # Game difficulty
 
-if choice == "No":
+if not choice:
     bible_books = bible_books[0:46]
 
 def scramble(word):
-    word = word.lower()
-    letters = list(word.replace(" ", ""))
-    random.shuffle(letters)
-    return ''.join(letters)
+    """
+    Unscrambles the chosen book.
+    input: word --> str
+    """
+
+    word = word.lower() # Sets all the letter in lowercase to improve difficulty.
+    letters = list(word.replace(" ", "")) # Removes the blank spaces for multi word books.
+    random.shuffle(letters) # Scramble the word.
+    return ''.join(letters) # Rearranges the scrambled word.
 
 def start_countdown(timer=timer):
+    """
+    Set the timer for each guessing round.
+    input: timer --> int
+    input set from the sidebar
+    """
+
     countdown = st.empty()
     for i in range(timer, -1, -1):
         countdown.markdown(f"<h1 style='text-align: center; color: red;'>{i}</h1>", unsafe_allow_html=True)
         time.sleep(1)
     st.success("⏱️ Time's up!")
 
-# Session state to persist book across reruns
 if 'current_book' not in st.session_state:
     st.session_state.current_book = None
 if 'scrambled' not in st.session_state:
@@ -46,7 +56,7 @@ if st.button("🔀 Generate Scrambled Book"):
 
 if st.session_state.scrambled:
     st.subheader("🧩 Unscramble this:")
-    st.markdown(f"<h2 style='text-align: center; color: blue;'>{st.session_state.scrambled}</h2>", unsafe_allow_html=True)
+    st.markdown(f"<h2 style='text-align: center; color: blue;'>{st.session_state.scrambled}</h1>", unsafe_allow_html=True)
     
     start_countdown()
     
