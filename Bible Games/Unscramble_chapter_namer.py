@@ -13,9 +13,22 @@ bible_books = [
     "Amos", "Ezra", "Joel", "John", "Jude", "Luke", "Mark", "Ruth"
 ]
 
+
+def reset_list():
+    global bible_books
+    bible_books = [
+    "Genesis", "Exodus", "Leviticus", "Numbers", "Deuteronomy", "Joshua", "Judges", "Samuel", "Kings", "Chronicles", "Nehemiah", "Esther",
+    "Psalms", "Proverbs", "Ecclesiastes", "Song of Solomon", "Isaiah", "Jeremiah", "Lamentations", "Ezekiel", "Daniel", "Hosea", "Obadiah", 
+    "Jonah", "Micah", "Nahum", "Habakkuk", "Zephaniah", "Haggai", "Zechariah", "Malachi", "Matthew", "Romans", "Corinthians", "Galatians", 
+    "Ephesians", "Philippians", "Colossians", "Thessalonians", "Timothy", "Titus", "Philemon", "Hebrews", "James", "Peter", "Revelation",
+    "Amos", "Ezra", "Joel", "John", "Jude", "Luke", "Mark", "Ruth"
+]
+
 st.sidebar.header('Personalize Settings') # Control bar
 timer = st.sidebar.number_input('How many seconds per round?', 5, 30, step=5) # Guessing time for each round
 choice = st.sidebar.selectbox('Do you want chapters with four letter?: 0 for yes, 1 for no', options = ('Yes', 'No')) # Game difficulty
+st.sidebar.button("Click here to reset the game.", on_click=reset_list())
+
 
 if not choice:
     bible_books = bible_books[0:46]
@@ -55,6 +68,7 @@ if st.button("🔀 Generate Scrambled Book"):
     chosen = random.randint(0, len(bible_books)-1)
     st.session_state.current_book = bible_books[chosen]
     st.session_state.scrambled = scramble(bible_books[chosen])
+    bible_books.pop(chosen)
 
 if st.session_state.scrambled:
     st.subheader("🧩 Unscramble this:")
