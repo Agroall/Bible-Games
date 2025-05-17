@@ -1,2 +1,5 @@
-# Unscramble-That-Bible-Book
-A simple game that unscrambles all bible chapters longer than 4 letters.
+# Bible-Games
+A simple site that hosts two bible games.
+
+1. An Unscramble Bible chapter game.
+2. A bible quiz game.
