@@ -1,6 +1,8 @@
 **Bible Games**
 Test your Bible knowledge and grow in the Word!
 
+**Test out the App Here:** https://bible-games.streamlit.app/
+
 
 **Overview**
 Bible Games is a fun and interactive Streamlit app designed to help users engage with Scripture through two original game modes:
