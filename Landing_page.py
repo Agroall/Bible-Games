@@ -8,17 +8,38 @@ st.subheader("Test your knowledge and have fun!")
 
 st.markdown("---")
 
-col1, col2 = st.columns(2)
+games = [
+    ("🧩", "Unscramble That Book", "Beat the clock", "pages/1_Unscramble_that_chapter.py"),
+    ("🧠", "Bible Quiz", "Four difficulty levels", "pages/2_Bible_quiz.py"),
+    ("🕵️", "Who Am I?", "2 players · 3 clues", "pages/3_Who_Am_I.py"),
+    ("💬", "Who Said It?", "2 players · name the speaker", "pages/4_Who_Said_It.py"),
+    ("🎭", "Two Truths and a Lie", "1-2 players · spot the lie", "pages/5_Two_Truths_And_A_Lie.py"),
+]
 
-with col1:
-    # st.image("https://cdn.pixabay.com/photo/2014/12/21/23/57/book-576513_1280.png", width=200)
-    if st.button("🧩 Play Unscramble That Bible Book!"):
-        st.switch_page("pages/1_Unscramble_that_chapter.py")
 
-with col2:
-    # st.image("https://cdn.pixabay.com/photo/2017/01/31/13/14/question-mark-2027266_1280.png", width=200)
-    if st.button("🧠 Take the Bible Quiz!"):
-        st.switch_page("pages/2_Bible_quiz.py")
+def game_card(column, icon, name, blurb, page):
+    with column:
+        st.markdown(
+            f"<div style='text-align:center; min-height:132px; display:flex; flex-direction:column; "
+            f"align-items:center; justify-content:flex-start'>"
+            f"<div style='font-size:44px; line-height:1.2'>{icon}</div>"
+            f"<div style='font-weight:600; margin-top:4px'>{name}</div>"
+            f"<div style='color:#6b7280; font-size:0.82em'>{blurb}</div>"
+            f"</div>",
+            unsafe_allow_html=True,
+        )
+        if st.button("Play", key=page, width="stretch"):
+            st.switch_page(page)
+
+
+for column, game in zip(st.columns(3, gap="medium"), games[:3]):
+    game_card(column, *game)
+
+st.write("")
+
+bottom = st.columns(3, gap="medium")
+for column, game in zip(bottom, games[3:]):
+    game_card(column, *game)
 
 st.markdown("---")
 

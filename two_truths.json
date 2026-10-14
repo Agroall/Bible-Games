@@ -1,0 +1,364 @@
+{
+  "rounds": [
+    {
+      "subject": "Noah",
+      "truths": [
+        "He was told to bring seven pairs of every clean animal onto the ark.",
+        "He planted a vineyard after the flood and became drunk on its wine."
+      ],
+      "lie": "He sent out a raven, a dove, and finally an eagle to look for dry land.",
+      "why": "He sent out a raven and then a dove three times. No eagle was ever involved."
+    },
+    {
+      "subject": "Moses",
+      "truths": [
+        "He was eighty years old when he first stood before Pharaoh.",
+        "He was buried by God in a valley, and no one knows his grave."
+      ],
+      "lie": "He led Israel across the Jordan and finally entered the promised land.",
+      "why": "Moses died on Mount Nebo in sight of the land. Joshua led Israel across the Jordan."
+    },
+    {
+      "subject": "David",
+      "truths": [
+        "He pretended to be insane to escape from the king of Gath.",
+        "He was forbidden to build the temple because he was a man of war."
+      ],
+      "lie": "He killed Goliath using a sword he had taken from the Philistine camp.",
+      "why": "He killed Goliath with a sling and a stone, then cut off his head with Goliath's own sword."
+    },
+    {
+      "subject": "Jonah",
+      "truths": [
+        "He told the sailors to throw him overboard to calm the storm.",
+        "He was angry when Nineveh repented and God spared the city."
+      ],
+      "lie": "He was swallowed by a whale and stayed inside it for forty days.",
+      "why": "The text says a great fish, not a whale, and the time was three days and three nights."
+    },
+    {
+      "subject": "Daniel",
+      "truths": [
+        "He prayed with his windows open toward Jerusalem three times a day.",
+        "He interpreted handwriting that appeared on a palace wall during a feast."
+      ],
+      "lie": "He was thrown into the fiery furnace along with his three friends.",
+      "why": "Daniel was not in the furnace. He faced the lions' den; his friends faced the furnace."
+    },
+    {
+      "subject": "Solomon",
+      "truths": [
+        "He asked God for wisdom instead of riches or long life.",
+        "He wrote thousands of proverbs and more than a thousand songs."
+      ],
+      "lie": "He built the temple in Jerusalem in just seven weeks.",
+      "why": "The temple took seven years to build, not seven weeks."
+    },
+    {
+      "subject": "Peter",
+      "truths": [
+        "He cut off the ear of the high priest's servant in Gethsemane.",
+        "He was released from prison by an angel while the church prayed for him."
+      ],
+      "lie": "He was the first disciple Jesus called by the Sea of Galilee.",
+      "why": "Andrew followed Jesus first, then brought his brother Simon Peter to him."
+    },
+    {
+      "subject": "Paul",
+      "truths": [
+        "He was a tentmaker by trade and worked to support himself.",
+        "He was shipwrecked and bitten by a viper on the island of Melita."
+      ],
+      "lie": "He was one of the twelve apostles who followed Jesus during his ministry.",
+      "why": "Paul never walked with Jesus during his earthly ministry. He was called after the resurrection."
+    },
+    {
+      "subject": "Samson",
+      "truths": [
+        "He caught three hundred foxes and tied torches to their tails.",
+        "He killed more Philistines in his death than during his whole life."
+      ],
+      "lie": "Delilah cut his hair herself while he slept on her knees.",
+      "why": "She called for a man to shave off the seven locks of his head."
+    },
+    {
+      "subject": "Joseph",
+      "truths": [
+        "He was sold to the Ishmeelites for twenty pieces of silver.",
+        "He named his first son Manasseh, meaning God made him forget his toil."
+      ],
+      "lie": "He was thirty-nine years old when he stood before Pharaoh.",
+      "why": "Joseph was thirty years old when he entered Pharaoh's service."
+    },
+    {
+      "subject": "Elijah",
+      "truths": [
+        "He outran a chariot all the way to Jezreel.",
+        "He heard God not in the wind or fire, but in a still small voice."
+      ],
+      "lie": "He was fed by ravens that brought him bread and water each morning.",
+      "why": "The ravens brought bread and flesh. He drank water from the brook."
+    },
+    {
+      "subject": "Esther",
+      "truths": [
+        "She hid her Jewish identity on her cousin's instruction.",
+        "She invited the king and Haman to two banquets before making her request."
+      ],
+      "lie": "She was the first wife of King Ahasuerus.",
+      "why": "Vashti was queen first, and was deposed before Esther was chosen."
+    },
+    {
+      "subject": "John the Baptist",
+      "truths": [
+        "He leaped in his mother's womb when Mary greeted Elisabeth.",
+        "He sent disciples from prison to ask if Jesus was the one to come."
+      ],
+      "lie": "He baptized Jesus in the Sea of Galilee.",
+      "why": "He baptized Jesus in the river Jordan, not the Sea of Galilee."
+    },
+    {
+      "subject": "Abraham",
+      "truths": [
+        "He twice said his wife was his sister out of fear.",
+        "He bought a cave at Machpelah as a burial place for Sarah."
+      ],
+      "lie": "He was seventy-five years old when Isaac was born.",
+      "why": "He was seventy-five when he left Haran. Isaac was born when he was a hundred."
+    },
+    {
+      "subject": "The plagues of Egypt",
+      "truths": [
+        "The magicians reproduced the plague of frogs but could not stop it.",
+        "The plague of darkness lasted three days across all Egypt."
+      ],
+      "lie": "There were seven plagues in total before Pharaoh let Israel go.",
+      "why": "There were ten plagues, ending with the death of the firstborn."
+    },
+    {
+      "subject": "The ark of the covenant",
+      "truths": [
+        "It held the tables of stone, Aaron's rod that budded, and a pot of manna.",
+        "A man named Uzzah died after touching it to steady it."
+      ],
+      "lie": "It was carried into battle at Jericho on a new cart.",
+      "why": "It was carried by priests on staves around Jericho. The new cart came much later, under the Philistines and then David."
+    },
+    {
+      "subject": "Ruth",
+      "truths": [
+        "She gleaned in the field of Boaz, a near kinsman of her husband.",
+        "She became the great-grandmother of King David."
+      ],
+      "lie": "She was from Midian and married into an Israelite family.",
+      "why": "Ruth was a Moabite, not a Midianite."
+    },
+    {
+      "subject": "The twelve spies",
+      "truths": [
+        "They brought back a cluster of grapes carried between two men on a staff.",
+        "They spent forty days searching out the land of Canaan."
+      ],
+      "lie": "Only Joshua brought back a good report of the land.",
+      "why": "Two men brought back a good report: Joshua and Caleb."
+    },
+    {
+      "subject": "Jacob",
+      "truths": [
+        "He worked fourteen years to marry Rachel after being deceived with Leah.",
+        "He saw a ladder reaching to heaven with angels ascending and descending."
+      ],
+      "lie": "He had twelve sons and no daughters.",
+      "why": "He also had a daughter named Dinah."
+    },
+    {
+      "subject": "Gideon",
+      "truths": [
+        "He tested God twice using a fleece and the morning dew.",
+        "He was threshing wheat by the winepress to hide it from the Midianites."
+      ],
+      "lie": "He attacked the Midianites with three thousand chosen men.",
+      "why": "His army was reduced to three hundred men before the attack."
+    },
+    {
+      "subject": "The birth of Jesus",
+      "truths": [
+        "Angels announced the birth to shepherds keeping watch over their flocks.",
+        "Joseph was warned in a dream to flee into Egypt."
+      ],
+      "lie": "Three wise men visited the stable on the night he was born.",
+      "why": "The number of wise men is never given, and they came to a house, not the stable, some time later."
+    },
+    {
+      "subject": "The feeding of the five thousand",
+      "truths": [
+        "A boy's five barley loaves and two small fish were used.",
+        "Twelve baskets of fragments were gathered afterward."
+      ],
+      "lie": "The five thousand counted included women and children.",
+      "why": "The text says about five thousand men, beside women and children."
+    },
+    {
+      "subject": "The crucifixion",
+      "truths": [
+        "Darkness covered the land from the sixth hour to the ninth hour.",
+        "The veil of the temple was torn in two from top to bottom."
+      ],
+      "lie": "The soldiers broke Jesus' legs to hasten his death.",
+      "why": "They broke the legs of the two thieves, but found Jesus already dead and did not break his."
+    },
+    {
+      "subject": "Lazarus",
+      "truths": [
+        "He had been in the grave four days before Jesus arrived.",
+        "The chief priests plotted to kill him as well, because of him many believed."
+      ],
+      "lie": "He was a stranger Jesus met on the road to Bethany.",
+      "why": "He was a close friend, the brother of Mary and Martha."
+    },
+    {
+      "subject": "The ten commandments",
+      "truths": [
+        "They were written on both sides of two tables of stone.",
+        "Moses broke the first set at the foot of the mountain."
+      ],
+      "lie": "They were given to Moses on Mount Horeb after forty days of rain.",
+      "why": "They were given on Mount Sinai, and Moses was there forty days and forty nights without rain."
+    },
+    {
+      "subject": "Joshua",
+      "truths": [
+        "He commanded the sun to stand still over Gibeon.",
+        "He was Moses' minister long before he led Israel."
+      ],
+      "lie": "The walls of Jericho fell on the seventh day after seven trumpet blasts.",
+      "why": "On the seventh day they circled the city seven times, not once with seven blasts."
+    },
+    {
+      "subject": "Saul",
+      "truths": [
+        "He was from the tribe of Benjamin, the smallest tribe of Israel.",
+        "He once prophesied among the prophets, to everyone's surprise."
+      ],
+      "lie": "He was killed by David in the final battle against the Philistines.",
+      "why": "Saul fell on his own sword at Gilboa. David was not in that battle."
+    },
+    {
+      "subject": "The tower of Babel",
+      "truths": [
+        "The builders used brick for stone and slime for mortar.",
+        "The Lord confounded their language so they could not understand each other."
+      ],
+      "lie": "God destroyed the tower with fire from heaven.",
+      "why": "God scattered the people and confused their speech. The tower was simply left unfinished."
+    },
+    {
+      "subject": "Job",
+      "truths": [
+        "His three friends sat with him seven days without speaking a word.",
+        "He was given twice as much as he had before at the end."
+      ],
+      "lie": "God explained to Job exactly why he had suffered.",
+      "why": "God never explained the reason. He answered Job out of the whirlwind with questions instead."
+    },
+    {
+      "subject": "Mary and Martha",
+      "truths": [
+        "Martha was cumbered about much serving while Mary sat at Jesus' feet.",
+        "Martha confessed that Jesus was the Christ, the Son of God."
+      ],
+      "lie": "Jesus rebuked Mary for neglecting her duties in the house.",
+      "why": "He defended Mary, saying she had chosen the good part that would not be taken from her."
+    },
+    {
+      "subject": "The day of Pentecost",
+      "truths": [
+        "There came a sound from heaven like a rushing mighty wind.",
+        "About three thousand souls were added that day."
+      ],
+      "lie": "The disciples spoke in a language no one present could understand.",
+      "why": "Every man heard them speak in his own language, which is why the crowd was amazed."
+    },
+    {
+      "subject": "Zacchaeus",
+      "truths": [
+        "He climbed a sycamore tree because he was short of stature.",
+        "He promised to give half his goods to the poor."
+      ],
+      "lie": "He was a fisherman in Jericho who left his nets to follow Jesus.",
+      "why": "He was a chief tax collector, and a rich one."
+    },
+    {
+      "subject": "Cain and Abel",
+      "truths": [
+        "Abel brought the firstlings of his flock and their fat.",
+        "Cain was marked by God so that no one finding him would kill him."
+      ],
+      "lie": "Cain was struck dead immediately after killing his brother.",
+      "why": "Cain lived on, became a fugitive, and built a city named after his son Enoch."
+    },
+    {
+      "subject": "The walls of Jerusalem",
+      "truths": [
+        "Nehemiah inspected the ruined walls by night before telling anyone his plan.",
+        "The builders worked with a weapon in one hand and a tool in the other."
+      ],
+      "lie": "The wall was finished in fifty-two weeks.",
+      "why": "The wall was finished in fifty-two days."
+    },
+    {
+      "subject": "Balaam",
+      "truths": [
+        "His donkey saw the angel of the Lord before he did.",
+        "He was hired by Balak to curse Israel but blessed them instead."
+      ],
+      "lie": "He struck his donkey twice before it finally spoke to him.",
+      "why": "He struck it three times, and the donkey asked why he had smitten it these three times."
+    },
+    {
+      "subject": "Hezekiah",
+      "truths": [
+        "He spread a threatening letter before the Lord in the house of the Lord.",
+        "He was granted fifteen more years of life after weeping before God."
+      ],
+      "lie": "The sign God gave him was the sun standing still at noon.",
+      "why": "The sign was the shadow on the sundial going backward ten degrees."
+    },
+    {
+      "subject": "The prodigal son",
+      "truths": [
+        "He was sent into the fields to feed swine.",
+        "His father saw him while he was still a great way off and ran to him."
+      ],
+      "lie": "His older brother welcomed him home with the rest of the household.",
+      "why": "The elder brother was angry and refused to go in."
+    },
+    {
+      "subject": "Stephen",
+      "truths": [
+        "His face appeared as the face of an angel to the council.",
+        "Saul of Tarsus consented to his death and kept the witnesses' clothes."
+      ],
+      "lie": "He was one of the twelve apostles chosen by Jesus.",
+      "why": "He was one of the seven chosen to serve tables, not one of the twelve."
+    },
+    {
+      "subject": "The Red Sea crossing",
+      "truths": [
+        "A strong east wind blew all night and made the sea dry land.",
+        "A pillar of cloud came between Israel and the Egyptians."
+      ],
+      "lie": "Moses struck the water with his hand to divide it.",
+      "why": "He stretched out his hand with the rod over the sea."
+    },
+    {
+      "subject": "Rahab",
+      "truths": [
+        "She hid the spies under stalks of flax on her roof.",
+        "She and all her father's household were spared when Jericho fell."
+      ],
+      "lie": "She hung a white cloth from her window as the agreed sign.",
+      "why": "The sign was a line of scarlet thread."
+    }
+  ]
+}

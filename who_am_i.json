@@ -1,0 +1,544 @@
+{
+  "characters": [
+    {
+      "answer": "Adam",
+      "accept": ["adam"],
+      "clues": [
+        "I was formed from the dust of the ground, and God breathed life into my nostrils.",
+        "I was told to name every living creature, and I gave my wife the name Eve.",
+        "I was the first man, and I ate the fruit my wife handed me in the garden of Eden."
+      ]
+    },
+    {
+      "answer": "Eve",
+      "accept": ["eve"],
+      "clues": [
+        "I was made from a rib while the first man slept.",
+        "A serpent told me I would not surely die, and I believed him.",
+        "I am called the mother of all living, and my name means life."
+      ]
+    },
+    {
+      "answer": "Noah",
+      "accept": ["noah", "noe"],
+      "clues": [
+        "I found grace in the eyes of the Lord when the whole earth was corrupt.",
+        "I built something enormous out of gopher wood, exactly as I was told.",
+        "I gathered animals two by two before the flood, and later saw a rainbow."
+      ]
+    },
+    {
+      "answer": "Abraham",
+      "accept": ["abraham", "abram"],
+      "clues": [
+        "God changed my name and promised my descendants would outnumber the stars.",
+        "I left Ur and Haran for a land I had never seen, at seventy-five years old.",
+        "I am called the father of faith, and I was ready to offer up my son Isaac."
+      ]
+    },
+    {
+      "answer": "Sarah",
+      "accept": ["sarah", "sarai"],
+      "clues": [
+        "I laughed when I overheard a promise about my own body.",
+        "I gave my maid Hagar to my husband, and later regretted it.",
+        "I bore Isaac at ninety years old, and my husband was Abraham."
+      ]
+    },
+    {
+      "answer": "Isaac",
+      "accept": ["isaac"],
+      "clues": [
+        "My name means laughter, because of how my mother received the news of me.",
+        "I carried the wood for my own sacrifice up a mountain, but a ram took my place.",
+        "I was the son of Abraham and Sarah, and the father of Jacob and Esau."
+      ]
+    },
+    {
+      "answer": "Jacob",
+      "accept": ["jacob", "israel"],
+      "clues": [
+        "I was born gripping my brother's heel, and I lived up to that start.",
+        "I wrestled until daybreak and walked away with a limp and a new name.",
+        "I had twelve sons, and I loved Joseph most of all."
+      ]
+    },
+    {
+      "answer": "Joseph",
+      "accept": ["joseph"],
+      "clues": [
+        "My brothers hated me for my dreams and sold me for twenty pieces of silver.",
+        "I interpreted dreams in a prison, then interpreted one for Pharaoh himself.",
+        "I wore a coat of many colors and became ruler over all Egypt."
+      ]
+    },
+    {
+      "answer": "Moses",
+      "accept": ["moses"],
+      "clues": [
+        "I was hidden in a basket among the reeds of a river.",
+        "I argued that I was slow of speech, so my brother spoke for me.",
+        "I parted the Red Sea and received the Ten Commandments on Mount Sinai."
+      ]
+    },
+    {
+      "answer": "Aaron",
+      "accept": ["aaron"],
+      "clues": [
+        "My rod swallowed the rods of Pharaoh's magicians after it became a serpent.",
+        "I made a golden calf while my brother was up on the mountain.",
+        "I was the first high priest of Israel, and Moses was my brother."
+      ]
+    },
+    {
+      "answer": "Miriam",
+      "accept": ["miriam"],
+      "clues": [
+        "I watched a basket float in the Nile and spoke up to a princess.",
+        "I was struck with leprosy for seven days after speaking against my brother.",
+        "I took a timbrel and led the women in song after the Red Sea, and Moses was my brother."
+      ]
+    },
+    {
+      "answer": "Joshua",
+      "accept": ["joshua", "hoshea"],
+      "clues": [
+        "I was one of only two spies who came back with a good report.",
+        "I was told to be strong and of good courage, for the Lord would be with me.",
+        "I marched around Jericho for seven days until its walls fell flat."
+      ]
+    },
+    {
+      "answer": "Caleb",
+      "accept": ["caleb"],
+      "clues": [
+        "I said we are well able to overcome them, when ten others said otherwise.",
+        "At eighty-five I claimed I was as strong as I was at forty.",
+        "I was the other faithful spy alongside Joshua, and I asked for Hebron."
+      ]
+    },
+    {
+      "answer": "Rahab",
+      "accept": ["rahab"],
+      "clues": [
+        "I hid two strangers under stalks of flax on my roof.",
+        "I tied a scarlet cord in my window so my household would be spared.",
+        "I was a harlot of Jericho, and I am listed in the genealogy of Christ."
+      ]
+    },
+    {
+      "answer": "Gideon",
+      "accept": ["gideon", "jerubbaal"],
+      "clues": [
+        "I asked for a sign twice using a fleece and the morning dew.",
+        "My army was cut from thirty-two thousand down to three hundred.",
+        "I defeated the Midianites with trumpets, pitchers, and lamps."
+      ]
+    },
+    {
+      "answer": "Samson",
+      "accept": ["samson"],
+      "clues": [
+        "I killed a lion with my bare hands and later found honey in its carcass.",
+        "I slew a thousand men with the jawbone of a donkey.",
+        "My strength was in my hair, and Delilah betrayed me to the Philistines."
+      ]
+    },
+    {
+      "answer": "Deborah",
+      "accept": ["deborah"],
+      "clues": [
+        "I judged Israel while sitting under a palm tree.",
+        "I told a commander I would go with him, since he would not go alone.",
+        "I was a prophetess and judge, and I sang a song of victory with Barak."
+      ]
+    },
+    {
+      "answer": "Ruth",
+      "accept": ["ruth"],
+      "clues": [
+        "I was a Moabite widow who refused to return to my own people.",
+        "I said where you go I will go, and your God will be my God.",
+        "I gleaned in the fields of Boaz and became great-grandmother to King David."
+      ]
+    },
+    {
+      "answer": "Naomi",
+      "accept": ["naomi", "mara", "marah"],
+      "clues": [
+        "I lost my husband and both of my sons in a foreign land.",
+        "I told the women to call me Bitter instead of Pleasant.",
+        "I was Ruth's mother-in-law, and I told her to lie at the feet of Boaz."
+      ]
+    },
+    {
+      "answer": "Samuel",
+      "accept": ["samuel"],
+      "clues": [
+        "My mother lent me to the Lord before I was born.",
+        "I heard a voice at night three times and thought it was the priest Eli.",
+        "I anointed both Saul and David as king over Israel."
+      ]
+    },
+    {
+      "answer": "Hannah",
+      "accept": ["hannah"],
+      "clues": [
+        "I wept and would not eat, because the Lord had shut up my womb.",
+        "A priest thought I was drunk, but I was only pouring out my soul.",
+        "I vowed my son to the Lord, and I was the mother of Samuel."
+      ]
+    },
+    {
+      "answer": "Saul",
+      "accept": ["saul"],
+      "clues": [
+        "I was head and shoulders taller than any of my people.",
+        "I was out looking for lost donkeys when I was told I would be king.",
+        "I was Israel's first king, and I consulted a witch at Endor before I died."
+      ]
+    },
+    {
+      "answer": "David",
+      "accept": ["david"],
+      "clues": [
+        "I was the youngest of eight sons, and I kept my father's sheep.",
+        "I played the harp to soothe a troubled king, and I wrote many psalms.",
+        "I killed Goliath with a sling and a stone, and later became king of Israel."
+      ]
+    },
+    {
+      "answer": "Goliath",
+      "accept": ["goliath"],
+      "clues": [
+        "I was six cubits and a span tall, and my coat of mail weighed five thousand shekels.",
+        "I defied the armies of Israel for forty days and no one would answer me.",
+        "I was the champion of Gath, and a shepherd boy felled me with one stone."
+      ]
+    },
+    {
+      "answer": "Jonathan",
+      "accept": ["jonathan"],
+      "clues": [
+        "I climbed a cliff with my armorbearer and routed a Philistine garrison.",
+        "I ate honey in a wood, not knowing my father had cursed anyone who ate.",
+        "My soul was knit to David's, and my father was King Saul."
+      ]
+    },
+    {
+      "answer": "Solomon",
+      "accept": ["solomon", "jedidiah"],
+      "clues": [
+        "God offered me anything, and I asked for an understanding heart.",
+        "I settled a dispute between two women by calling for a sword.",
+        "I built the temple in Jerusalem, and the Queen of Sheba came to test me."
+      ]
+    },
+    {
+      "answer": "Elijah",
+      "accept": ["elijah", "elias"],
+      "clues": [
+        "Ravens brought me bread and flesh by a brook called Cherith.",
+        "I called down fire on a soaked altar and mocked the prophets of Baal.",
+        "I went up to heaven in a whirlwind with a chariot of fire, and Elisha watched."
+      ]
+    },
+    {
+      "answer": "Elisha",
+      "accept": ["elisha"],
+      "clues": [
+        "I was plowing with twelve oxen when a mantle was thrown over me.",
+        "I asked for a double portion of my master's spirit.",
+        "I made an axe head float and told Naaman to dip seven times in the Jordan."
+      ]
+    },
+    {
+      "answer": "Naaman",
+      "accept": ["naaman"],
+      "clues": [
+        "I was a mighty man of valor, but I was a leper.",
+        "A little captive maid told my wife where I could be healed.",
+        "I was angry at being told to wash in the Jordan, but I dipped seven times and was clean."
+      ]
+    },
+    {
+      "answer": "Jezebel",
+      "accept": ["jezebel"],
+      "clues": [
+        "I was a king's wife from Sidon, and I fed hundreds of false prophets.",
+        "I wrote letters in my husband's name to seize a man's vineyard.",
+        "I painted my face and looked out a window before being thrown down to the dogs."
+      ]
+    },
+    {
+      "answer": "Hezekiah",
+      "accept": ["hezekiah", "ezekias"],
+      "clues": [
+        "I spread a threatening letter before the Lord in the temple.",
+        "I was told to set my house in order, so I turned to the wall and wept.",
+        "Fifteen years were added to my life, and the sun's shadow went backward ten degrees."
+      ]
+    },
+    {
+      "answer": "Josiah",
+      "accept": ["josiah"],
+      "clues": [
+        "I became king when I was only eight years old.",
+        "I tore my clothes when the book of the law was read to me.",
+        "I destroyed the idols and kept the greatest Passover since the days of Samuel."
+      ]
+    },
+    {
+      "answer": "Nehemiah",
+      "accept": ["nehemiah"],
+      "clues": [
+        "I was a cupbearer to a Persian king, and my face was sad before him.",
+        "I inspected broken walls by night, riding alone.",
+        "I rebuilt the wall of Jerusalem in fifty-two days while my workers held weapons."
+      ]
+    },
+    {
+      "answer": "Ezra",
+      "accept": ["ezra"],
+      "clues": [
+        "I was a scribe skilled in the law of Moses.",
+        "I proclaimed a fast at the river Ahava rather than ask the king for soldiers.",
+        "I read the law aloud from morning until midday while the people wept."
+      ]
+    },
+    {
+      "answer": "Esther",
+      "accept": ["esther", "hadassah"],
+      "clues": [
+        "I was an orphan raised by my cousin, and I hid my nationality.",
+        "I was told that I had come to the kingdom for such a time as this.",
+        "I went in to the king unbidden and saved my people from Haman."
+      ]
+    },
+    {
+      "answer": "Mordecai",
+      "accept": ["mordecai"],
+      "clues": [
+        "I refused to bow, and a powerful man plotted genocide over it.",
+        "I sat in sackcloth at the king's gate and sent word to my cousin.",
+        "I was Esther's cousin, and I rode through the city in royal apparel."
+      ]
+    },
+    {
+      "answer": "Job",
+      "accept": ["job"],
+      "clues": [
+        "I was perfect and upright, and I feared God and shunned evil.",
+        "I lost my children, my wealth, and my health in a single season.",
+        "I said though he slay me, yet will I trust him, and my three friends accused me."
+      ]
+    },
+    {
+      "answer": "Daniel",
+      "accept": ["daniel", "belteshazzar"],
+      "clues": [
+        "I refused the king's meat and wine, asking for pulse and water instead.",
+        "I read the writing on the wall when no one else could.",
+        "I prayed three times a day and spent a night in a den of lions."
+      ]
+    },
+    {
+      "answer": "Jonah",
+      "accept": ["jonah", "jonas"],
+      "clues": [
+        "I paid my fare and boarded a ship going the opposite way.",
+        "I slept through a storm until the sailors cast lots and found me out.",
+        "I spent three days in a great fish, then preached to Nineveh."
+      ]
+    },
+    {
+      "answer": "Isaiah",
+      "accept": ["isaiah", "esaias"],
+      "clues": [
+        "I saw the Lord high and lifted up, and his train filled the temple.",
+        "I cried woe is me, for I am a man of unclean lips, and a coal touched my mouth.",
+        "I said here am I, send me, and I foretold a virgin would bear a son."
+      ]
+    },
+    {
+      "answer": "Jeremiah",
+      "accept": ["jeremiah", "jeremias"],
+      "clues": [
+        "I said I am a child and cannot speak, but God had known me before I was formed.",
+        "I was lowered into a dungeon of mire and sank in the mud.",
+        "I am called the weeping prophet, and I wrote Lamentations over Jerusalem."
+      ]
+    },
+    {
+      "answer": "Ezekiel",
+      "accept": ["ezekiel"],
+      "clues": [
+        "I saw a whirlwind out of the north and living creatures with four faces.",
+        "I was told to eat a scroll, and it was sweet as honey in my mouth.",
+        "I prophesied to a valley of dry bones until they lived and stood up."
+      ]
+    },
+    {
+      "answer": "John the Baptist",
+      "accept": ["john the baptist", "john baptist", "the baptist"],
+      "clues": [
+        "My father was struck dumb until the day I was named.",
+        "I wore camel's hair and a leather girdle, and I ate locusts and wild honey.",
+        "I baptized in the Jordan and said he must increase but I must decrease."
+      ]
+    },
+    {
+      "answer": "Mary",
+      "accept": ["mary", "mary mother of jesus", "virgin mary"],
+      "clues": [
+        "An angel greeted me as highly favored and told me not to fear.",
+        "I asked how this could be, and I was told nothing is impossible with God.",
+        "I laid my firstborn in a manger, and I stood near the cross when he died."
+      ]
+    },
+    {
+      "answer": "Peter",
+      "accept": ["peter", "simon peter", "simon", "cephas"],
+      "clues": [
+        "I left my nets to follow, and I was told I would catch men instead.",
+        "I walked on water until I looked at the waves and began to sink.",
+        "I denied my Lord three times before the cock crew, and I preached at Pentecost."
+      ]
+    },
+    {
+      "answer": "Paul",
+      "accept": ["paul", "saul", "saul of tarsus", "paul of tarsus"],
+      "clues": [
+        "I held the coats of the men who stoned Stephen.",
+        "A light blinded me on a road, and a voice asked why I was persecuting him.",
+        "I wrote letters to the Romans and Corinthians, and I said I have fought a good fight."
+      ]
+    },
+    {
+      "answer": "Judas Iscariot",
+      "accept": ["judas iscariot", "judas"],
+      "clues": [
+        "I kept the bag, and I complained that costly ointment should have been sold.",
+        "I asked what they would give me, and they counted out thirty pieces of silver.",
+        "I betrayed my Master with a kiss in the garden of Gethsemane."
+      ]
+    },
+    {
+      "answer": "Thomas",
+      "accept": ["thomas", "didymus", "doubting thomas"],
+      "clues": [
+        "I once said let us also go, that we may die with him.",
+        "I said I would not believe unless I put my finger into the print of the nails.",
+        "I am the doubting disciple, and I cried out my Lord and my God."
+      ]
+    },
+    {
+      "answer": "Stephen",
+      "accept": ["stephen"],
+      "clues": [
+        "I was one of seven chosen to serve tables, full of faith and the Holy Ghost.",
+        "I preached a long sermon on Israel's history, and my face shone like an angel's.",
+        "I was the first Christian martyr, stoned while I prayed for my killers."
+      ]
+    },
+    {
+      "answer": "Lazarus",
+      "accept": ["lazarus"],
+      "clues": [
+        "My two sisters sent word that the one whom the Lord loved was sick.",
+        "Jesus wept before he came to my tomb.",
+        "I had been dead four days when I was called to come forth, still in grave clothes."
+      ]
+    },
+    {
+      "answer": "Martha",
+      "accept": ["martha"],
+      "clues": [
+        "I was cumbered about with much serving and complained about my sister.",
+        "I was told that only one thing was needful, and that my sister had chosen it.",
+        "I said I believe you are the Christ, before my brother Lazarus was raised."
+      ]
+    },
+    {
+      "answer": "Zacchaeus",
+      "accept": ["zacchaeus", "zaccheus"],
+      "clues": [
+        "I was rich, but I was little of stature.",
+        "I climbed a sycamore tree just to see over the crowd.",
+        "I was a chief publican in Jericho, and I promised to restore fourfold."
+      ]
+    },
+    {
+      "answer": "Nicodemus",
+      "accept": ["nicodemus"],
+      "clues": [
+        "I was a Pharisee and a ruler of the Jews, and I came by night.",
+        "I asked how a man could be born when he is old.",
+        "I was told you must be born again, and I brought myrrh and aloes for the burial."
+      ]
+    },
+    {
+      "answer": "Pontius Pilate",
+      "accept": ["pontius pilate", "pilate"],
+      "clues": [
+        "My wife sent me a warning about a dream she had suffered.",
+        "I asked what is truth, and I found no fault in the man before me.",
+        "I washed my hands before the multitude and delivered Jesus to be crucified."
+      ]
+    },
+    {
+      "answer": "Barnabas",
+      "accept": ["barnabas", "joses", "joseph barnabas"],
+      "clues": [
+        "My name means the son of consolation, and I sold my land for the apostles.",
+        "I vouched for a feared new convert when the disciples were afraid of him.",
+        "I traveled with Paul, then parted from him over whether to take Mark."
+      ]
+    },
+    {
+      "answer": "Timothy",
+      "accept": ["timothy", "timotheus"],
+      "clues": [
+        "My mother was Eunice and my grandmother was Lois.",
+        "I was told to let no man despise my youth.",
+        "Paul called me his own son in the faith and wrote me two letters."
+      ]
+    },
+    {
+      "answer": "Cain",
+      "accept": ["cain"],
+      "clues": [
+        "I was a tiller of the ground, and my offering was not accepted.",
+        "I asked whether I was my brother's keeper.",
+        "I killed Abel in a field and was marked and sent to wander."
+      ]
+    },
+    {
+      "answer": "Enoch",
+      "accept": ["enoch"],
+      "clues": [
+        "I lived three hundred sixty-five years, which was short for my day.",
+        "I walked with God, and I was not, for God took me.",
+        "I never died, and my son was Methuselah."
+      ]
+    },
+    {
+      "answer": "Melchizedek",
+      "accept": ["melchizedek", "melchisedec"],
+      "clues": [
+        "I brought out bread and wine to a victorious warrior.",
+        "I was king of Salem and priest of the most high God.",
+        "Abraham paid me tithes, and Hebrews says I had no beginning of days."
+      ]
+    },
+    {
+      "answer": "Balaam",
+      "accept": ["balaam"],
+      "clues": [
+        "I was hired to curse a nation, but I could only bless it.",
+        "An angel stood in my path with a drawn sword, and I did not see him.",
+        "My donkey spoke to me and asked what I had done to deserve three beatings."
+      ]
+    }
+  ]
+}

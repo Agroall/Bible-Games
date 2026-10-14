@@ -1,0 +1,634 @@
+{
+  "quotes": [
+    {
+      "quote": "Am I my brother's keeper?",
+      "answer": "Cain",
+      "accept": ["cain"],
+      "context": "Asked after murdering his brother in a field.",
+      "reference": "Genesis 4:9"
+    },
+    {
+      "quote": "Here am I; send me.",
+      "answer": "Isaiah",
+      "accept": ["isaiah", "esaias"],
+      "context": "Volunteering after a live coal touched his lips in the temple.",
+      "reference": "Isaiah 6:8"
+    },
+    {
+      "quote": "Whither thou goest, I will go; and where thou lodgest, I will lodge: thy people shall be my people, and thy God my God.",
+      "answer": "Ruth",
+      "accept": ["ruth"],
+      "context": "Refusing to leave her mother-in-law on the road out of Moab.",
+      "reference": "Ruth 1:16"
+    },
+    {
+      "quote": "Though he slay me, yet will I trust in him.",
+      "answer": "Job",
+      "accept": ["job"],
+      "context": "Spoken after losing his children, his wealth and his health.",
+      "reference": "Job 13:15"
+    },
+    {
+      "quote": "I know that my redeemer liveth.",
+      "answer": "Job",
+      "accept": ["job"],
+      "context": "Spoken from an ash heap while his friends accused him.",
+      "reference": "Job 19:25"
+    },
+    {
+      "quote": "Behold the handmaid of the Lord; be it unto me according to thy word.",
+      "answer": "Mary",
+      "accept": ["mary", "virgin mary", "mary mother of jesus"],
+      "context": "Answering an angel who announced an impossible pregnancy.",
+      "reference": "Luke 1:38"
+    },
+    {
+      "quote": "What is truth?",
+      "answer": "Pontius Pilate",
+      "accept": ["pontius pilate", "pilate"],
+      "context": "Asked by a Roman governor during a trial he wanted no part of.",
+      "reference": "John 18:38"
+    },
+    {
+      "quote": "Thou art the Christ, the Son of the living God.",
+      "answer": "Peter",
+      "accept": ["peter", "simon peter", "simon", "cephas"],
+      "context": "Answering at Caesarea Philippi when the others stayed quiet.",
+      "reference": "Matthew 16:16"
+    },
+    {
+      "quote": "Except I shall see in his hands the print of the nails, I will not believe.",
+      "answer": "Thomas",
+      "accept": ["thomas", "didymus", "doubting thomas"],
+      "context": "Spoken to the other disciples a week after the resurrection.",
+      "reference": "John 20:25"
+    },
+    {
+      "quote": "Lord, lay not this sin to their charge.",
+      "answer": "Stephen",
+      "accept": ["stephen"],
+      "context": "Prayed for his own killers while the stones were still falling.",
+      "reference": "Acts 7:60"
+    },
+    {
+      "quote": "Silver and gold have I none; but such as I have give I thee.",
+      "answer": "Peter",
+      "accept": ["peter", "simon peter", "simon", "cephas"],
+      "context": "Said to a lame beggar at the Beautiful gate of the temple.",
+      "reference": "Acts 3:6"
+    },
+    {
+      "quote": "I have fought a good fight, I have finished my course, I have kept the faith.",
+      "answer": "Paul",
+      "accept": ["paul", "saul", "saul of tarsus", "paul of tarsus"],
+      "context": "Written from prison to a younger minister near the end of his life.",
+      "reference": "2 Timothy 4:7"
+    },
+    {
+      "quote": "He must increase, but I must decrease.",
+      "answer": "John the Baptist",
+      "accept": ["john the baptist", "john baptist", "the baptist"],
+      "context": "Said when his own disciples complained that crowds were leaving him.",
+      "reference": "John 3:30"
+    },
+    {
+      "quote": "Let my people go.",
+      "answer": "Moses",
+      "accept": ["moses"],
+      "context": "Delivered repeatedly to a stubborn king of Egypt.",
+      "reference": "Exodus 5:1"
+    },
+    {
+      "quote": "Choose you this day whom ye will serve... but as for me and my house, we will serve the Lord.",
+      "answer": "Joshua",
+      "accept": ["joshua", "hoshea"],
+      "context": "A farewell challenge to Israel at Shechem.",
+      "reference": "Joshua 24:15"
+    },
+    {
+      "quote": "Speak; for thy servant heareth.",
+      "answer": "Samuel",
+      "accept": ["samuel"],
+      "context": "Said by a boy who had mistaken God's voice for the old priest's.",
+      "reference": "1 Samuel 3:10"
+    },
+    {
+      "quote": "Is there not a cause?",
+      "answer": "David",
+      "accept": ["david"],
+      "context": "Said to an older brother who mocked him for coming to the battle line.",
+      "reference": "1 Samuel 17:29"
+    },
+    {
+      "quote": "Thou art the man.",
+      "answer": "Nathan",
+      "accept": ["nathan"],
+      "context": "A prophet's verdict after telling a king a story about a stolen lamb.",
+      "reference": "2 Samuel 12:7"
+    },
+    {
+      "quote": "Give therefore thy servant an understanding heart to judge thy people.",
+      "answer": "Solomon",
+      "accept": ["solomon", "jedidiah"],
+      "context": "Asked at Gibeon when God offered him anything he wanted.",
+      "reference": "1 Kings 3:9"
+    },
+    {
+      "quote": "How long halt ye between two opinions? If the Lord be God, follow him.",
+      "answer": "Elijah",
+      "accept": ["elijah", "elias"],
+      "context": "Shouted to Israel on Mount Carmel before the fire fell.",
+      "reference": "1 Kings 18:21"
+    },
+    {
+      "quote": "I pray thee, let a double portion of thy spirit be upon me.",
+      "answer": "Elisha",
+      "accept": ["elisha"],
+      "context": "Asked of his master just before a whirlwind took him away.",
+      "reference": "2 Kings 2:9"
+    },
+    {
+      "quote": "If I perish, I perish.",
+      "answer": "Esther",
+      "accept": ["esther", "hadassah"],
+      "context": "Decided before going to the king unbidden to save her people.",
+      "reference": "Esther 4:16"
+    },
+    {
+      "quote": "Who knoweth whether thou art come to the kingdom for such a time as this?",
+      "answer": "Mordecai",
+      "accept": ["mordecai"],
+      "context": "Sent as a message to a queen who was hesitating.",
+      "reference": "Esther 4:14"
+    },
+    {
+      "quote": "I am doing a great work, so that I cannot come down.",
+      "answer": "Nehemiah",
+      "accept": ["nehemiah"],
+      "context": "Refusing a meeting with enemies while rebuilding a wall.",
+      "reference": "Nehemiah 6:3"
+    },
+    {
+      "quote": "Our God whom we serve is able to deliver us... but if not, we will not serve thy gods.",
+      "answer": "Shadrach, Meshach and Abednego",
+      "accept": ["shadrach meshach and abednego", "shadrach meshach abednego", "shadrach", "meshach", "abednego", "the three hebrews", "three hebrew boys"],
+      "context": "Said to a king standing in front of a very hot furnace.",
+      "reference": "Daniel 3:17-18"
+    },
+    {
+      "quote": "Ah, Lord God! behold, I cannot speak: for I am a child.",
+      "answer": "Jeremiah",
+      "accept": ["jeremiah", "jeremias"],
+      "context": "Protesting his own call as a prophet to the nations.",
+      "reference": "Jeremiah 1:6"
+    },
+    {
+      "quote": "I am not able to bear all this people alone, because it is too heavy for me.",
+      "answer": "Moses",
+      "accept": ["moses"],
+      "context": "Complaining to God about a nation that would not stop murmuring.",
+      "reference": "Numbers 11:14"
+    },
+    {
+      "quote": "Nay; but we will have a king over us.",
+      "answer": "The elders of Israel",
+      "accept": ["the elders of israel", "elders of israel", "the elders", "elders", "israel", "the people"],
+      "context": "Demanded of an aging judge, so they could be like other nations.",
+      "reference": "1 Samuel 8:19"
+    },
+    {
+      "quote": "The Lord gave, and the Lord hath taken away; blessed be the name of the Lord.",
+      "answer": "Job",
+      "accept": ["job"],
+      "context": "Said on the same day he lost everything he owned and all his children.",
+      "reference": "Job 1:21"
+    },
+    {
+      "quote": "Create in me a clean heart, O God.",
+      "answer": "David",
+      "accept": ["david"],
+      "context": "Written after a prophet confronted him about Bathsheba.",
+      "reference": "Psalm 51:10"
+    },
+    {
+      "quote": "Behold the Lamb of God, which taketh away the sin of the world.",
+      "answer": "John the Baptist",
+      "accept": ["john the baptist", "john baptist", "the baptist"],
+      "context": "Said while pointing out a man walking toward him at the Jordan.",
+      "reference": "John 1:29"
+    },
+    {
+      "quote": "Master, carest thou not that we perish?",
+      "answer": "The disciples",
+      "accept": ["the disciples", "disciples", "his disciples", "the twelve"],
+      "context": "Shouted in a storm at someone who was asleep on a pillow.",
+      "reference": "Mark 4:38"
+    },
+    {
+      "quote": "Lord, if thou hadst been here, my brother had not died.",
+      "answer": "Martha",
+      "accept": ["martha"],
+      "context": "Said by a grieving sister four days after the funeral in Bethany.",
+      "reference": "John 11:21"
+    },
+    {
+      "quote": "What shall I do then with Jesus which is called Christ?",
+      "answer": "Pontius Pilate",
+      "accept": ["pontius pilate", "pilate"],
+      "context": "Asked of a crowd that had just chosen Barabbas.",
+      "reference": "Matthew 27:22"
+    },
+    {
+      "quote": "Truly this man was the Son of God.",
+      "answer": "The centurion",
+      "accept": ["the centurion", "centurion", "roman centurion", "the roman centurion"],
+      "context": "Said by a Roman soldier watching the crucifixion end.",
+      "reference": "Mark 15:39"
+    },
+    {
+      "quote": "My Lord and my God.",
+      "answer": "Thomas",
+      "accept": ["thomas", "didymus", "doubting thomas"],
+      "context": "Cried out by the doubter once he finally saw the wounds.",
+      "reference": "John 20:28"
+    },
+    {
+      "quote": "Lord, what wilt thou have me to do?",
+      "answer": "Paul",
+      "accept": ["paul", "saul", "saul of tarsus", "paul of tarsus"],
+      "context": "Asked from the ground on the road to Damascus, blinded by light.",
+      "reference": "Acts 9:6"
+    },
+    {
+      "quote": "Almost thou persuadest me to be a Christian.",
+      "answer": "King Agrippa",
+      "accept": ["king agrippa", "agrippa", "herod agrippa"],
+      "context": "Said by a king after hearing a prisoner's defense.",
+      "reference": "Acts 26:28"
+    },
+    {
+      "quote": "Thy money perish with thee, because thou hast thought that the gift of God may be purchased with money.",
+      "answer": "Peter",
+      "accept": ["peter", "simon peter", "simon", "cephas"],
+      "context": "Rebuking a former sorcerer who offered cash for the Holy Ghost.",
+      "reference": "Acts 8:20"
+    },
+    {
+      "quote": "Sirs, what must I do to be saved?",
+      "answer": "The Philippian jailer",
+      "accept": ["the philippian jailer", "philippian jailer", "the jailer", "jailer", "the jailor", "jailor"],
+      "context": "Asked after an earthquake opened every cell door at midnight.",
+      "reference": "Acts 16:30"
+    },
+    {
+      "quote": "Can there any good thing come out of Nazareth?",
+      "answer": "Nathanael",
+      "accept": ["nathanael", "nathaniel", "bartholomew"],
+      "context": "A skeptical first reaction to news of the Messiah.",
+      "reference": "John 1:46"
+    },
+    {
+      "quote": "Entreat me not to leave thee, or to return from following after thee.",
+      "answer": "Ruth",
+      "accept": ["ruth"],
+      "context": "Clinging to a bitter widow who told her to go home.",
+      "reference": "Ruth 1:16"
+    },
+    {
+      "quote": "Call me not Pleasant, call me Bitter: for the Almighty hath dealt very bitterly with me.",
+      "answer": "Naomi",
+      "accept": ["naomi", "mara", "marah"],
+      "context": "Said on returning to Bethlehem empty after years in Moab.",
+      "reference": "Ruth 1:20"
+    },
+    {
+      "quote": "Give me children, or else I die.",
+      "answer": "Rachel",
+      "accept": ["rachel"],
+      "context": "Demanded of her husband while envying her own sister.",
+      "reference": "Genesis 30:1"
+    },
+    {
+      "quote": "I will not let thee go, except thou bless me.",
+      "answer": "Jacob",
+      "accept": ["jacob", "israel"],
+      "context": "Said during an all-night wrestling match by the brook Jabbok.",
+      "reference": "Genesis 32:26"
+    },
+    {
+      "quote": "Ye thought evil against me; but God meant it unto good.",
+      "answer": "Joseph",
+      "accept": ["joseph"],
+      "context": "Said to the brothers who had sold him into slavery.",
+      "reference": "Genesis 50:20"
+    },
+    {
+      "quote": "How then can I do this great wickedness, and sin against God?",
+      "answer": "Joseph",
+      "accept": ["joseph"],
+      "context": "Refusing his master's wife in Egypt.",
+      "reference": "Genesis 39:9"
+    },
+    {
+      "quote": "Shall not the Judge of all the earth do right?",
+      "answer": "Abraham",
+      "accept": ["abraham", "abram"],
+      "context": "Bargaining with God over the fate of Sodom.",
+      "reference": "Genesis 18:25"
+    },
+    {
+      "quote": "Behold the fire and the wood: but where is the lamb for a burnt offering?",
+      "answer": "Isaac",
+      "accept": ["isaac"],
+      "context": "Asked of his father on the way up Mount Moriah.",
+      "reference": "Genesis 22:7"
+    },
+    {
+      "quote": "Thy brother came with subtilty, and hath taken away thy blessing.",
+      "answer": "Isaac",
+      "accept": ["isaac"],
+      "context": "Explained to a son who returned from hunting too late.",
+      "reference": "Genesis 27:35"
+    },
+    {
+      "quote": "What hast thou done unto me? I took thee to curse mine enemies, and, behold, thou hast blessed them.",
+      "answer": "Balak",
+      "accept": ["balak", "king balak"],
+      "context": "An angry Moabite king complaining to the prophet he had hired.",
+      "reference": "Numbers 23:11"
+    },
+    {
+      "quote": "What have I done unto thee, that thou hast smitten me these three times?",
+      "answer": "Balaam's donkey",
+      "accept": ["balaams donkey", "balaam s donkey", "the donkey", "donkey", "the ass", "ass", "balaams ass", "balaam s ass"],
+      "context": "Spoken by an animal that could see what its rider could not.",
+      "reference": "Numbers 22:28"
+    },
+    {
+      "quote": "Is it well with thee? is it well with thy husband? is it well with the child? And she answered, It is well.",
+      "answer": "The Shunammite woman",
+      "accept": ["the shunammite woman", "shunammite woman", "the shunammite", "shunammite"],
+      "context": "Said by a mother riding for help, her dead son left on a prophet's bed.",
+      "reference": "2 Kings 4:26"
+    },
+    {
+      "quote": "Fear not: for they that be with us are more than they that be with them.",
+      "answer": "Elisha",
+      "accept": ["elisha"],
+      "context": "Reassuring a terrified servant surrounded by an enemy army.",
+      "reference": "2 Kings 6:16"
+    },
+    {
+      "quote": "If I had not plowed with my heifer, ye had not found out my riddle.",
+      "answer": "Samson",
+      "accept": ["samson"],
+      "context": "Said after his wedding guests pressured his bride for the answer.",
+      "reference": "Judges 14:18"
+    },
+    {
+      "quote": "O Lord God, remember me, I pray thee, and strengthen me, I pray thee, only this once.",
+      "answer": "Samson",
+      "accept": ["samson"],
+      "context": "Prayed blind, between two pillars, in a Philistine temple.",
+      "reference": "Judges 16:28"
+    },
+    {
+      "quote": "If thou wilt go with me, then I will go: but if thou wilt not go with me, then I will not go.",
+      "answer": "Barak",
+      "accept": ["barak"],
+      "context": "Said to a prophetess who had just given him his marching orders.",
+      "reference": "Judges 4:8"
+    },
+    {
+      "quote": "For this child I prayed; and the Lord hath given me my petition.",
+      "answer": "Hannah",
+      "accept": ["hannah"],
+      "context": "Said while handing her young son over to the priest at Shiloh.",
+      "reference": "1 Samuel 1:27"
+    },
+    {
+      "quote": "I have sinned: for I have transgressed the commandment of the Lord... because I feared the people.",
+      "answer": "Saul",
+      "accept": ["saul", "king saul"],
+      "context": "Confessed to Samuel after sparing the Amalekite livestock.",
+      "reference": "1 Samuel 15:24"
+    },
+    {
+      "quote": "Thy people shall be my people... the Lord do so to me, and more also, if ought but death part thee and me.",
+      "answer": "Ruth",
+      "accept": ["ruth"],
+      "context": "The full form of a vow made on the road out of Moab.",
+      "reference": "Ruth 1:17"
+    },
+    {
+      "quote": "Arise, call upon thy God, if so be that God will think upon us, that we perish not.",
+      "answer": "The shipmaster",
+      "accept": ["the shipmaster", "shipmaster", "the captain", "captain", "the ship captain"],
+      "context": "Said to a sleeping passenger during a storm bound for Tarshish.",
+      "reference": "Jonah 1:6"
+    },
+    {
+      "quote": "I do well to be angry, even unto death.",
+      "answer": "Jonah",
+      "accept": ["jonah", "jonas"],
+      "context": "Sulking outside a city that had just repented, over a withered plant.",
+      "reference": "Jonah 4:9"
+    },
+    {
+      "quote": "How shall I know this? for I am an old man, and my wife well stricken in years.",
+      "answer": "Zacharias",
+      "accept": ["zacharias", "zechariah", "zachariah"],
+      "context": "Doubting an angel at the altar of incense, and struck dumb for it.",
+      "reference": "Luke 1:18"
+    },
+    {
+      "quote": "Whatsoever he saith unto you, do it.",
+      "answer": "Mary",
+      "accept": ["mary", "virgin mary", "mary mother of jesus"],
+      "context": "Instructions to servants at a wedding in Cana that ran out of wine.",
+      "reference": "John 2:5"
+    },
+    {
+      "quote": "Lord, remember me when thou comest into thy kingdom.",
+      "answer": "The thief on the cross",
+      "accept": ["the thief on the cross", "thief on the cross", "the thief", "thief", "the penitent thief", "the dying thief", "the malefactor"],
+      "context": "Asked by a dying criminal who rebuked the one next to him.",
+      "reference": "Luke 23:42"
+    },
+    {
+      "quote": "Be it known unto thee, O king, that we will not serve thy gods, nor worship the golden image.",
+      "answer": "Shadrach, Meshach and Abednego",
+      "accept": ["shadrach meshach and abednego", "shadrach meshach abednego", "shadrach", "meshach", "abednego", "the three hebrews", "three hebrew boys"],
+      "context": "A flat refusal delivered on the plain of Dura.",
+      "reference": "Daniel 3:18"
+    },
+    {
+      "quote": "O king, live for ever. My God hath sent his angel, and hath shut the lions' mouths.",
+      "answer": "Daniel",
+      "accept": ["daniel", "belteshazzar"],
+      "context": "Called up from a sealed den at first light.",
+      "reference": "Daniel 6:21-22"
+    },
+    {
+      "quote": "Rend your heart, and not your garments.",
+      "answer": "Joel",
+      "accept": ["joel"],
+      "context": "A prophet's call to repentance during a locust plague.",
+      "reference": "Joel 2:13"
+    },
+    {
+      "quote": "Woe is me! for I am undone; because I am a man of unclean lips.",
+      "answer": "Isaiah",
+      "accept": ["isaiah", "esaias"],
+      "context": "Said on seeing the Lord high and lifted up in the temple.",
+      "reference": "Isaiah 6:5"
+    },
+    {
+      "quote": "Can these bones live?",
+      "answer": "God",
+      "accept": ["god", "the lord", "lord", "the lord god", "jehovah", "yahweh"],
+      "context": "A question put to a prophet standing in a valley of dry bones.",
+      "reference": "Ezekiel 37:3"
+    },
+    {
+      "quote": "What mean ye by this service?",
+      "answer": "The children of Israel",
+      "accept": ["the children of israel", "children of israel", "the children", "israelite children", "your children", "the israelites"],
+      "context": "The question the Passover meal was designed to provoke.",
+      "reference": "Exodus 12:26"
+    },
+    {
+      "quote": "Who am I, that I should go unto Pharaoh?",
+      "answer": "Moses",
+      "accept": ["moses"],
+      "context": "Said at a burning bush, the first of several excuses.",
+      "reference": "Exodus 3:11"
+    },
+    {
+      "quote": "These be thy gods, O Israel, which brought thee up out of the land of Egypt.",
+      "answer": "Aaron",
+      "accept": ["aaron"],
+      "context": "Announced about a calf he had just made from melted earrings.",
+      "reference": "Exodus 32:4"
+    },
+    {
+      "quote": "Let us go up at once, and possess it; for we are well able to overcome it.",
+      "answer": "Caleb",
+      "accept": ["caleb"],
+      "context": "The minority report after forty days of spying out Canaan.",
+      "reference": "Numbers 13:30"
+    },
+    {
+      "quote": "Behold, to obey is better than sacrifice.",
+      "answer": "Samuel",
+      "accept": ["samuel"],
+      "context": "Said to a king who blamed the people for sparing the best sheep.",
+      "reference": "1 Samuel 15:22"
+    },
+    {
+      "quote": "The Lord forbid that I should stretch forth mine hand against the Lord's anointed.",
+      "answer": "David",
+      "accept": ["david"],
+      "context": "Said in a cave, after cutting only the hem of a sleeping king's robe.",
+      "reference": "1 Samuel 24:6"
+    },
+    {
+      "quote": "Thy love to me was wonderful, passing the love of women.",
+      "answer": "David",
+      "accept": ["david"],
+      "context": "Part of a lament for a fallen friend and his father.",
+      "reference": "2 Samuel 1:26"
+    },
+    {
+      "quote": "Vanity of vanities; all is vanity.",
+      "answer": "The Preacher",
+      "accept": ["the preacher", "preacher", "koheleth", "qoheleth", "solomon", "the son of david"],
+      "context": "The opening verdict of a book about life under the sun.",
+      "reference": "Ecclesiastes 1:2"
+    },
+    {
+      "quote": "Ye are the salt of the earth.",
+      "answer": "Jesus",
+      "accept": ["jesus", "jesus christ", "christ", "our lord", "the lord jesus"],
+      "context": "Said on a mountainside early in the Sermon on the Mount.",
+      "reference": "Matthew 5:13"
+    },
+    {
+      "quote": "Father, forgive them; for they know not what they do.",
+      "answer": "Jesus",
+      "accept": ["jesus", "jesus christ", "christ", "our lord", "the lord jesus"],
+      "context": "Prayed while being nailed to a cross.",
+      "reference": "Luke 23:34"
+    },
+    {
+      "quote": "Why callest thou me good? there is none good but one, that is, God.",
+      "answer": "Jesus",
+      "accept": ["jesus", "jesus christ", "christ", "our lord", "the lord jesus"],
+      "context": "Answering a rich young ruler who ran up and knelt down.",
+      "reference": "Mark 10:18"
+    },
+    {
+      "quote": "Woman, where are those thine accusers? hath no man condemned thee?",
+      "answer": "Jesus",
+      "accept": ["jesus", "jesus christ", "christ", "our lord", "the lord jesus"],
+      "context": "Asked after writing on the ground and watching a crowd walk away.",
+      "reference": "John 8:10"
+    },
+    {
+      "quote": "Lord, how oft shall my brother sin against me, and I forgive him? till seven times?",
+      "answer": "Peter",
+      "accept": ["peter", "simon peter", "simon", "cephas"],
+      "context": "An apostle who thought seven was already generous.",
+      "reference": "Matthew 18:21"
+    },
+    {
+      "quote": "Depart from me; for I am a sinful man, O Lord.",
+      "answer": "Peter",
+      "accept": ["peter", "simon peter", "simon", "cephas"],
+      "context": "Said at the knees of Jesus after a net-breaking catch of fish.",
+      "reference": "Luke 5:8"
+    },
+    {
+      "quote": "To me to live is Christ, and to die is gain.",
+      "answer": "Paul",
+      "accept": ["paul", "saul", "saul of tarsus", "paul of tarsus"],
+      "context": "Written to the Philippians while in chains.",
+      "reference": "Philippians 1:21"
+    },
+    {
+      "quote": "I can do all things through Christ which strengtheneth me.",
+      "answer": "Paul",
+      "accept": ["paul", "saul", "saul of tarsus", "paul of tarsus"],
+      "context": "Written about learning contentment in plenty and in want.",
+      "reference": "Philippians 4:13"
+    },
+    {
+      "quote": "Shew us the Father, and it sufficeth us.",
+      "answer": "Philip",
+      "accept": ["philip", "phillip"],
+      "context": "A request made in the upper room on the last night.",
+      "reference": "John 14:8"
+    },
+    {
+      "quote": "Lord, I believe; help thou mine unbelief.",
+      "answer": "The father of the demon-possessed boy",
+      "accept": ["the father of the demon possessed boy", "the boys father", "the father", "father of the boy", "a father"],
+      "context": "Cried out with tears by a desperate parent at the foot of a mountain.",
+      "reference": "Mark 9:24"
+    },
+    {
+      "quote": "What is this that thou hast done? The serpent beguiled me, and I did eat.",
+      "answer": "Eve",
+      "accept": ["eve"],
+      "context": "An explanation offered in a garden, deflecting blame.",
+      "reference": "Genesis 3:13"
+    },
+    {
+      "quote": "The woman whom thou gavest to be with me, she gave me of the tree, and I did eat.",
+      "answer": "Adam",
+      "accept": ["adam"],
+      "context": "The first recorded excuse in human history.",
+      "reference": "Genesis 3:12"
+    }
+  ]
+}
